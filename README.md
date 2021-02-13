@@ -21,7 +21,7 @@ Smart contract project built in the Rinkeby Test Network for Ethereum. The smart
 
 ## Getting Started
 
-To test this smart contract, once cloned the repo and run npm install in the root directory and run npm install inside lottery contract directory as well. Inside lottery contract directory run node deploy.js, copy the address and the interface code that shows in the terminal and paste that code inside src/lottery.js, the address replacing the address const variable and the interface replacing the abi const variable. That is so the machine cloning this repo will be the manager of the contract so it can test the pickWinner method call.
+To test this smart contract, once cloned the repo, run npm install in the root directory, also run npm install inside lottery contract directory as well. Inside lottery contract directory run node deploy.js, copy the address and the interface code that shows in the terminal and paste that code inside src/lottery.js, the address replacing the value of the address const variable and the interface replacing the value of the abi const variable. That is so the machine cloning this repo will be the manager of the contract so it can test the pickWinner method call.
 
 ## Live version
 
