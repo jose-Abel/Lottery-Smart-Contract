@@ -46,7 +46,7 @@ class App extends Component {
 
     this.setState({message: "Waiting on transaction success..."});
 
-    await lottery.methods.pickWiner().send({
+    await lottery.methods.pickWinner().send({
       from: accounts[0]
     })
 
