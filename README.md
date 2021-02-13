@@ -1,5 +1,9 @@
 # Lottery Smart Contract
 
+Smart contract project built in the Rinkeby Test Network for Ethereum. The smart contract has the enter, getPlayers, random and pickWinner methods and the manager and players properties. A player having a Metamask wallet in the Rinkeby Network and with some ethereum on that network (so it would be test ether) can enter the contract and once the contract has one or more playes only the manager of the contract can send the pickWinner method call through the pick a winner! button, once the pickWinner method is called, in a pseudo random way a player will be choosen as the winner getting all the balance in the smart contract.
+
+very basic frontend was build to interact with the contract.
+
 ![screenshot](./app_screenshot.png)
 
 ## Built With
@@ -19,7 +23,11 @@
 
 ## Getting Started
 
+To test this smart contract, once cloned the repo and run npm install in the root directory and run npm install inside lottery contract directory as well. Inside lottery contract directory run node deploy.js, copy the address and the interface code that shows in the terminal and paste that code inside src/lottery.js, the address replacing the address const variable and the interface replacing the abi const variable. That is so the machine cloning this repo will be the manager of the contract so it can test the pickWinner method call.
+
 ## Live version
+
+https://jose-abel-lottery-smart-contract.netlify.app/
 
 ### Setup
 
