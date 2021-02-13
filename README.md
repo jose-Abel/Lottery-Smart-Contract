@@ -1,8 +1,6 @@
 # Lottery Smart Contract
 
-Smart contract project built in the Rinkeby Test Network for Ethereum. The smart contract has the enter, getPlayers, random and pickWinner methods and the manager and players properties. A player having a Metamask wallet in the Rinkeby Network and with some ethereum on that network (so it would be test ether) can enter the contract and once the contract has one or more playes only the manager of the contract can send the pickWinner method call through the pick a winner! button, once the pickWinner method is called, in a pseudo random way a player will be choosen as the winner getting all the balance in the smart contract.
-
-very basic frontend was build to interact with the contract.
+Smart contract project built in the Rinkeby Test Network for Ethereum. The smart contract has the enter, getPlayers, random and pickWinner methods and the manager and players properties. A player having a Metamask wallet in the Rinkeby Network and with some ethereum on that network (so it would be test ether) can enter the contract and once the contract has one or more playes only the manager of the contract can send the pickWinner method call through the pick a winner! button, once the pickWinner method is called, in a pseudo random way a player will be choosen as the winner getting all the balance in the smart contract. A very basic frontend was build to interact with the contract.
 
 ![screenshot](./app_screenshot.png)
 
